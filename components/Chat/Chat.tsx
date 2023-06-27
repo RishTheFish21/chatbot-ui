@@ -354,6 +354,18 @@ export const Chat = memo(({ stopConversationRef }: Props) => {
           <div className="text-center text-4xl font-bold text-black dark:text-white">
             Welcome to Chatbot UI
           </div>
+          <div className="text-center text-lg text-black dark:text-white">
+            <div className="mb-2 font-bold">
+              
+            </div>
+          </div>
+          <div className="text-center text-gray-500 dark:text-gray-400">
+            <div className="mb-2">
+              
+            </div>
+            <div className="mb-2">
+              
+            </div>
             <div className="mb-2">
               {t(
                 'Please set your OpenAI API key in the bottom left of the sidebar.',
